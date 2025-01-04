@@ -1,0 +1,21 @@
+{
+  "name": "google-search-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to let you quickly open Google search results",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/agoudbg/google-search-bot",
+  "author": "agoudbg <agoudbg@gmail.com>",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.34.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
